@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginTop="5dp"
+    android:layout_marginHorizontal="6.5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You've chosen NOT to save ANY data. To start saving weekly and daily data you can change this in the settings menu as it is off by default. Please note that this app does not use or send data to any third parties and it is only to be used by you, the user."
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Since data saving is off, heres a picture of a good dog!"
+        android:textSize="12dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/doggoodgirl"
+        android:gravity="center"/>
+
+</LinearLayout>
